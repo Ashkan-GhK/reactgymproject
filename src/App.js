@@ -13,6 +13,8 @@ function App() {
       {/* Body */}
       <MainTop />
       <MainBottom />
+      
+      {/* <MainBottom /> */}
       {/* Footer */}
     </div>
   );
