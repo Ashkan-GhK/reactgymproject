@@ -1,6 +1,4 @@
 import React, { useState } from 'react'
-import { Parallax } from 'react-parallax';
-
 import '../../styles/MainBottom.css'
 
 function MainBottom() {
@@ -9,7 +7,7 @@ function MainBottom() {
 	
 
 	const showText = () => {
-		if(window.screenY >= 60) {
+		if(window.screenY >= 20) {
 			setActive(true)
 		} else {
 			setActive(false)
@@ -26,7 +24,7 @@ function MainBottom() {
 	return (
 		<div className="mainBottom">
 			
-                            <div className="mainBottom__text__top">
+                            <div className={active ? "mainBottom__text__top active" : "mainBottom__text__top" }>
 				    <p>I'm a paragraph. Click here to add your own </p>
 				      <p> text and edit me. It’s easy. Just click “Edit</p>
 				       <p>Text” or double click me to add your own </p> 
