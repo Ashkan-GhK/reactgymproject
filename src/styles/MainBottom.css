@@ -28,7 +28,7 @@
   margin-left: 10px;
 }
 
-.mainBottom__button button {
+.mainBottom__text button {
   width: 180px;
   padding: 20px;
   margin: 25px 40px 0 30px;
@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-.mainBottom__button button:hover {
+.mainBottom__text button:hover {
   padding: 20px;
   background-color: #292929;
   color: white;
@@ -104,4 +104,22 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
+}
+
+.mainBottom__button button {
+  width: 180px;
+  padding: 20px;
+  margin: 25px 40px 0 30px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.639);
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.mainBottom__button button:hover {
+  padding: 20px;
+  background-color: #292929;
+  color: white;
+  transition: 0.5s;
 }

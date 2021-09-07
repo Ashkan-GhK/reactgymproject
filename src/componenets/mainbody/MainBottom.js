@@ -1,9 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { Parallax } from 'react-parallax';
+
 import '../../styles/MainBottom.css'
 
 function MainBottom() {
 
+	const [active, setActive] = useState(false)
 	
+
+	const showText = () => {
+		if(window.screenY >= 60) {
+			setActive(true)
+		} else {
+			setActive(false)
+		}
+
+	}
+
+
+	window.addEventListener('scroll', showText)
+
+
+
 
 	return (
 		<div className="mainBottom">
@@ -13,7 +31,7 @@ function MainBottom() {
 				      <p> text and edit me. It’s easy. Just click “Edit</p>
 				       <p>Text” or double click me to add your own </p> 
 				      <p> content and make changes to the font.</p>   
-				      <div className="mainBottom__button">
+				      <div className="mainBottom__text button">
 					<button>Start Sweating</button>
 				</div>                  
 
@@ -35,7 +53,7 @@ function MainBottom() {
 						    <p>me to add your own content and</p>
 						    <p>make changes to the font. </p>
 					    </div>
-					    <div className="mainBottom__button">
+					    <div className="mainBottom__button button">
 						    <button>Learn More</button>
 					    </div>
 				    </div>
