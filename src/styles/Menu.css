@@ -1,0 +1,44 @@
+.menu {
+  display: flex;
+}
+.menu__items {
+  display: flex;
+}
+
+.menu__items li {
+  padding: 10px;
+  transition: 0.8s;
+  cursor: pointer;
+}
+
+.menu__items li:hover {
+  color: rgb(197, 77, 77);
+  transform: scale(1.25);
+}
+
+.menu__login {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.menu__login__button {
+  margin-left: 10px;
+}
+
+.menu__login__button button {
+  width: 100px;
+  padding: 10px;
+  margin: 0 40px 0 30px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.639);
+  font-weight: 600;
+}
+
+.menu__login__button button:hover {
+  padding: 10px;
+  background-color: #292929;
+  color: white;
+  transition: 0.5s;
+}

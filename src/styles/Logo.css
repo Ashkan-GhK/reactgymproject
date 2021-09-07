@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  background-color: rgba(0, 0, 0, 0.831);
+  width: 200px;
+  height: 100px;
+  font-size: large;
+}
+.logo__left {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ffff;
+  cursor: pointer;
+}
