@@ -1,0 +1,24 @@
+.facility {
+  display: flex;
+  margin-top: 1000px;
+  margin-bottom: 200px;
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+.facility__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+.facility__img__bg span {
+  display: flex;
+  margin-top: 200px;
+  justify-content: end;
+  width: 600px;
+  height: 600px;
+  background-color: #ff7200;
+}

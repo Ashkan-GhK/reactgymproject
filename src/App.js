@@ -1,4 +1,5 @@
 import './App.css';
+import Facility from './componenets/mainbody/Facility';
 import MainBottom from './componenets/mainbody/MainBottom';
 import MainTop from './componenets/mainbody/MainTop';
 import Navbar from './componenets/Navbar';
@@ -11,10 +12,13 @@ function App() {
         <Navbar />
 
       {/* Body */}
+      
       <MainTop />
       <MainBottom />
       
-      {/* <MainBottom /> */}
+      <Facility />
+      
+      
       {/* Footer */}
     </div>
   );
