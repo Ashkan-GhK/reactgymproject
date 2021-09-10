@@ -1,10 +1,11 @@
 .facility {
   display: flex;
-  margin-top: 1000px;
-  margin-bottom: 200px;
+  margin-top: 100px;
   font-size: 3.2rem;
   font-weight: 800;
+  height: 330vh;
 }
+
 .facility__text {
   display: flex;
   justify-content: center;
@@ -12,13 +13,38 @@
   margin: auto;
   font-size: 3.2rem;
   font-weight: 800;
+  margin-top: 1000px;
+  height: 50px;
 }
 
-.facility__img__bg span {
+.facility__img__bg {
   display: flex;
-  margin-top: 200px;
-  justify-content: end;
-  width: 600px;
-  height: 600px;
+  margin-top: 1200px;
+  width: 1000px;
+  height: 700px;
   background-color: #ff7200;
+}
+
+.one {
+  width: 400px;
+  height: 700px;
+  margin: 5px;
+}
+
+.two {
+  width: 900px;
+  height: 700px;
+  margin: 5px;
+}
+
+.facility__img {
+  margin-top: 100px;
+}
+
+.facility__row__first {
+  display: flex;
+}
+
+.facility__row__second {
+  display: flex;
 }

@@ -12,7 +12,7 @@ function MainBottom() {
 		AOS.init({ duration: 3000})
 	}, [])
 
-	
+
 
 
 	return (
@@ -49,6 +49,7 @@ function MainBottom() {
 						    <button>Learn More</button>
 					    </div>
 				    </div>
+
 				    
 				    </div>
 				    

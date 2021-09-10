@@ -2,6 +2,7 @@ import './App.css';
 import Facility from './componenets/mainbody/Facility';
 import MainBottom from './componenets/mainbody/MainBottom';
 import MainTop from './componenets/mainbody/MainTop';
+import Methods from './componenets/Methods';
 import Navbar from './componenets/Navbar';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
       <MainBottom />
       
       <Facility />
-      
+      <Methods />
       
       {/* Footer */}
     </div>
