@@ -1,4 +1,5 @@
 import './App.css';
+import ContactUs from './componenets/ContactUs';
 import Facility from './componenets/mainbody/Facility';
 import MainBottom from './componenets/mainbody/MainBottom';
 import MainTop from './componenets/mainbody/MainTop';
@@ -20,6 +21,7 @@ function App() {
       <Facility />
       <Methods />
       
+      <ContactUs />
       {/* Footer */}
     </div>
   );
