@@ -36,7 +36,7 @@
   position: absolute;
   justify-content: center;
   margin-top: 400px;
-  margin-left: 500px;
+  margin-left: 600px;
   width: 500px;
   height: 500px;
   background-color: #262626;
@@ -76,4 +76,70 @@ input {
   border: none;
   border-bottom: 1px solid white;
   background-color: #262626;
+  color: #ffff;
+  padding: 5px;
+  font-size: 1rem;
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+.contactUs__form__input__three {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  margin-top: 180px;
+}
+
+.contactUs__form__textarea {
+  margin-right: 35px;
+  margin-left: 8px;
+}
+
+.contactUs__form__textarea P {
+  padding-bottom: 5px;
+}
+
+textarea {
+  background-color: #262626;
+  border: none;
+  border-bottom: 1px solid white;
+  resize: none;
+  color: #ffff;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.contactUs__form__submit__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262626;
+  color: #ffff;
+  border: 1px solid #ffff;
+  margin-top: 53px;
+  width: 160px;
+  height: 55px;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+button:hover {
+  padding: 10px;
+  background-color: #ffff;
+  color: #262626;
+  transition: 0.5s;
 }

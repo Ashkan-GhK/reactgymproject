@@ -48,12 +48,20 @@ function ContactUs() {
 						    <p>Email</p>
 						    <input type="email" />
 					    </div>
+					    <div className="contactUs__form__input__three">
+					    <div className="contactUs__form__textarea">
+						    <p>Leave us a Message</p>
+						    <textarea name="" id="" cols="18" rows="5"></textarea>
+					    </div>
+					    <div className="contactUs__form__submit__button">
+						    <button>Submit</button>
+					    </div>
+					    </div>
 					   
 					    </div>
 					    
 				    </div>
 			    </div>
-		        
 
 		    </div>
 		</div>
