@@ -1,0 +1,62 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  width: 1650px;
+  height: 400px;
+  background-color: #262626;
+}
+
+.footer__contents {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  flex-grow: 1;
+  justify-content: space-around;
+  padding: 10px;
+  color: #fff;
+}
+
+.footer__logo__contariner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  width: 200px;
+  height: 100px;
+  font-size: large;
+}
+.logo__left {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ffff;
+  cursor: pointer;
+}
+
+.footer__contents span {
+  display: flex;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.footer__contents li {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.footer__contents li:hover {
+  color: #ff7200;
+  cursor: pointer;
+}
+
+.footer__contents__contact p {
+  letter-spacing: 1px;
+  text-indent: 1px;
+}
+
+.footer__contents__openingTime {
+  letter-spacing: 1px;
+  text-indent: 1px;
+}

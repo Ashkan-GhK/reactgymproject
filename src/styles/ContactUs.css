@@ -120,7 +120,7 @@ textarea {
   justify-content: center;
 }
 
-button {
+.contactUs__form__submit__button button {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -137,7 +137,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.contactUs__form__submit__button button:hover {
   padding: 10px;
   background-color: #ffff;
   color: #262626;
